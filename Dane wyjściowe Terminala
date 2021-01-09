@@ -1,0 +1,51 @@
+Last login: Fri Nov 27 21:57:40 on ttys000
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git init
+Initialized empty Git repository in /Users/Tomasz/Desktop/Kodilla/learning-git-2/.git/
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	css/
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git add . && git commit -m "Init project" 
+[master (root-commit) e3c8868] Init project
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 css/style.css
+ create mode 100644 index.html
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git status
+On branch master
+nothing to commit, working tree clean
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git add . && git commit -m "Add basic html code"
+[master 516e9f0] Add basic html code
+ 1 file changed, 11 insertions(+)
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git add . && git commit -m "Add html for page headerand main content"
+[master 71f3926] Add html for page headerand main content
+ 1 file changed, 45 insertions(+)
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git add . && git commit -m "Add html for page footer"                
+[master 690c106] Add html for page footer
+ 1 file changed, 6 insertions(+)
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git add . && git commit -m "Add style for page header and main content"
+[master 76f41f3] Add style for page header and main content
+ 3 files changed, 28 insertions(+), 11 deletions(-)
+ create mode 100644 .DS_Store
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git status
+On branch master
+nothing to commit, working tree clean
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git add . && git commit -m "Add style for page footer"                 
+[master fe9315b] Add style for page footer
+ 2 files changed, 14 insertions(+), 1 deletion(-)
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git tag "x1"
+Tomasz@MacBook-Air-Tomasz learning-git-2 % git tree
+* fe9315b (HEAD -> master, tag: x1) Add style for page footer
+* 76f41f3 Add style for page header and main content
+* 690c106 Add html for page footer
+* 71f3926 Add html for page headerand main content
+* 516e9f0 Add basic html code
+* e3c8868 Init project
+Tomasz@MacBook-Air-Tomasz learning-git-2 % 
+
